@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animal Kingdom</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- Background Slideshow -->
+  <div class="bg-slideshow"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <h2>Animal Kingdom</h2>
+    <ul>
+      <li><a href="#animals">Animals</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <h1>Welcome to the Animal Kingdom</h1>
+    <p>Discover the wonders of wildlife</p>
+  </header>
+
+  <section id="animals" class="animal-section">
+
+    <!-- Animal Cards -->
+    <div class="animal-card left reveal">
+      <img src="images/lion.jpg" alt="Lion">
+      <audio id="sound-lion" src="audio/lion.wav"></audio>
+      <div class="info">
+        <h2>Lion</h2>
+        <p>The king of the jungle, known for strength and pride.</p>
+      </div>
+    </div>
+
+    <div class="animal-card right reveal">
+      <img src="images/elephant.jpg" alt="Elephant">
+      <audio id="sound-elephant" src="audio/mixkit-wind-blowing-ambience-2658.wav"></audio>
+      <div class="info">
+        <h2>Elephant</h2>
+        <p>Gentle giants with incredible memory and intelligence.</p>
+      </div>
+    </div>
+
+    <div class="animal-card left reveal">
+      <img src="images/tiger.jpg" alt="Tiger">
+      <audio id="sound-tiger" src="audio/mixkit-wild-creature-growl-1957.wav"></audio>
+      <div class="info">
+        <h2>Tiger</h2>
+        <p>Powerful hunters with striking orange and black stripes.</p>
+      </div>
+    </div>
+
+    <div class="animal-card right reveal">
+      <img src="images/giraffe.jpg" alt="Giraffe">
+      <audio id="sound-giraffe" src="audio/mixkit-swamp-and-jungle-birds-ambience-325.wav"></audio>
+      <div class="info">
+        <h2>Giraffe</h2>
+        <p>The tallest land animals, known for their long necks.</p>
+      </div>
+    </div>
+
+    <div class="animal-card left reveal">
+      <img src="images/wolf.jpg" alt="Wolf">
+      <audio id="sound-wolf" src="audio/wolf.wav"></audio>
+      <div class="info">
+        <h2>Wolf</h2>
+        <p>Highly intelligent pack hunters with strong instincts.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="about" class="about-section reveal">
+    <h2>The Beauty of Wildlife</h2>
+    <p>
+      The wild is a living poem — written in pawprints, wingbeats, and the quiet breath of ancient forests.
+      Every creature carries a story older than our own, a reminder that the earth once spoke in roars, whispers, and songs carried by the wind.
+      To witness wildlife is to stand at the edge of creation itself, where beauty is untamed, sacred, and forever alive.
+    </p>
+  </section>
+
+  <audio id="sound-lion" src="audio/lion.mp3"></audio>
+  <audio id="sound-elephant" src="audio/elephant.mp3"></audio>
+  <audio id="sound-tiger" src="audio/tiger.mp3"></audio>
+  <audio id="sound-giraffe" src="audio/giraffe.mp3"></audio>
+  <audio id="sound-wolf" src="audio/wolf.mp3"></audio>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
